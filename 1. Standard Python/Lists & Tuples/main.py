@@ -19,6 +19,10 @@ for i in range(0, len(nlist)):
     for j in range(0, len(nlist[i])):
         print(nlist[i][j])
 
+for lis in nlist:
+    for c in lis:
+        print(c)
+
 # Traditional Tuples - An immutable list of things
 tup = ("a", "b", "c")
 for i in range(0, len(tup)):
